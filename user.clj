@@ -1,10 +1,7 @@
 (ns user
   (:require [clojure.java.io :as io]
             [clojure.string :as string]
-            clojure.tools.deps.alpha.repl
             [net.cgrand.enlive-html :as html]))
-
-(def add-lib clojure.tools.deps.alpha.repl/add-lib)
 
 (defn extractor
   [fn-map]
